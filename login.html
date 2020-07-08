@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<style>
+    .main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    width: 400px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding:50px ;
+   background: rgba(0, 0, 0,0.8);
+   border-radius: 10px;
+   
+}
+.center h1 {
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.center .inputbox {
+    position: relative;
+}
+.center .inputbox input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+}
+.center .inputbox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px, 0;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+.center input[type="submit"] {
+background: transparent;
+border: none;
+outline: none;
+color: white;
+background: #03a9f4;
+padding: 8px 16px;
+border-radius: 5px;
+
+}
+
+.center .inputbox input:focus ~ label, .center .inputbox input:valid ~ label{
+top: -20px;
+left: 0;
+color: tomato;
+font-size: 12px;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><img style="width: 200px;" src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a  class="nav-link btn btn-warning" href="index.html">Home <span class="sr-only">(current)</span></a>
+           
+          </ul>
+         
+      </nav>
+    <div class="main">
+        <div class="center">
+            <h1>login form</h1>
+            <form action="" method="">
+                <div class="inputbox">
+                    <input type="text" name="username" autocomplete="off" required>
+                <label for="username">username</label>
+                
+                </div>
+                <div class="inputbox">
+                    <input type="email" name="email" required>
+                <label for="email">email</label>
+               
+                </div>
+                <div class="inputbox">
+                     <input type="password" name="password" required>
+                    <label for="password">password</label>
+                </div>
+                <input type="submit" value="login">
+                    
+            </form>
+        </div>
+    </div>
+</body>
+</html>
