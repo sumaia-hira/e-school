@@ -45,7 +45,7 @@
 .container {
    
     width: 100%;
-    border-bottom: khaki 2px solid;
+   
 }
 .container h1 {
     text-align: center;
@@ -89,6 +89,7 @@ width: 150px;
 }
 .icons {
    border-right: lightcyan 3px solid;
+   width: 100%;
 }
 .social-icon a img {
     width: 50px;
@@ -100,5 +101,8 @@ footer {
     height: 7%;
     background-color: #FDF15F;
 }
+
+
+
 
 
