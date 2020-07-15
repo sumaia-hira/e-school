@@ -1,3 +1,93 @@
 @media only screen and (max-width:600px) {
-    .header-main img {display: none;}
+    .header-main img {width: 300px;
+    position: absolute;
+top: -250px;
+left: 180px;}
+    .header-main h1 { font-size: 25px;
+    position: absolute;
+    top: -120px;
+    left: 5px;
+}
+    .header-main h2 {font-size: 19px;}
+    .header-main h4 {font-size: 17px;}
+    .header-main a {
+        padding: 5px 20px;
+    }
+    .icon-top img{width: 100px;
+        
+
+    }
+    .icon-top h3 {font-size: 14px;}
+    .icon-top small {font-size: 10px;}
+    .icon-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        height: 600px;
+        position: relative;
+        left: 180px;
+        
+       
+    }
+    .header-main{
+        display: flex;
+     
+        align-items: center;
+        
+    }
+    .container a {
+        padding: 6px 10px;
+        font-size: 10px;
+        
+    }
+    .container h1 {font-size: 30px;}
+    .card {
+        height: 400px;
+        width: 300px;
+        position: relative;
+        left: 90px;
+    
+       
+    }
+    .carousel-inner img{
+        width: 180px;
+       
+    
+    }
+    .card h5 {
+        font-size: 20px;
+    }
+    .card p {font-size: 12px;}
+    .card img {
+        height: 200px;
+    }
+  
+
+    }
+    #books h2 {font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    
+    right: 180px;
+
+}
+  
+    
+    footer a {
+        padding: 6px 10px;
+        font-size: 10px;
+        
+    }
+    .testimonials img{
+        position: relative;
+        left: 100px;
+        width: 150px;
+        height: 150px;
+    }
+    .testimonials p {
+        position: relative;
+       right: 15px;
+
+    }
 }
